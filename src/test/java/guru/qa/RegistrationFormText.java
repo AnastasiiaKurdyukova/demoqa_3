@@ -37,7 +37,6 @@ public class RegistrationFormText {
         $("[aria-label$='July 27th, 1989']").click();
         $(byText("Reading")).click();
         $(byText("Music")).click();
-        $("#subjectsInput").setValue("Chemistry").pressEnter();
         $("#uploadPicture").uploadFromClasspath(foto);
         $("#currentAddress").setValue("123 Book Street");
         $("#state").click();
